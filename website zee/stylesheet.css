@@ -1,0 +1,55 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+body{
+ 
+    font-family: 'Nunito', sans-serif;
+}
+img{
+    max-width: 80%;
+    margin-left: 10%;
+}
+li{
+    border: 1px solid #30618C;
+    width: 80%;
+    margin: 5%;
+    background-color:#639CBF;
+}
+    ul {
+        list-style: none;
+    }
+
+    footer,a {
+        text-decoration: none;
+        color:#30618C ;
+        font-family: fantasy;
+       
+    }
+
+    a:hover {
+        color: #F2F2F2;
+        background-color:  #9AC1D9;
+}
+
+footer{
+    margin: 5%;
+    text-align: center;
+}
+
+
+@media screen and (min-width:768px) {
+     .alles {
+         background-color: white;
+        
+        width: 90%;
+        border-radius: 1rem;
+         margin-left: 5%;
+        
+    }
+   body{
+        background-color: #30618C;
+        background-size: 64px 128px;
+       }
+
+    .lightbox-gallery{background-image: linear-gradient(#30618C,  #9AC1D9,#30618C );background-repeat: no-repeat;color: #000;overflow-x: hidden}.lightbox-gallery p{color:#fff}.lightbox-gallery h2{font-weight:bold;margin-bottom:40px;padding-top:40px;color:#fff}@media (max-width:767px){.lightbox-gallery h2{margin-bottom:25px;padding-top:25px;font-size:24px}}.lightbox-gallery .intro{font-size:16px;max-width:500px;margin:0 auto 40px}.lightbox-gallery .intro p{margin-bottom:0}.lightbox-gallery .photos{padding-bottom:20px}.lightbox-gallery .item{padding-bottom:30px}
+}
+  
